@@ -133,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/sanders/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_Argentina.bin \
@@ -1325,7 +1326,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/firmware/FT8006U_Pramboot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FT8006U_Pramboot.bin \
     vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-biel-ft5436-06-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-biel-ft5436-06-0001-sanders.bin \
     vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-djn-ft5436-02-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djn-ft5436-02-0001-sanders.bin \
-    vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin
+    vendor/motorola/sanders/proprietary/vendor/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-toptouch-ft5436-0a-0001-sanders.bin \
+    vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
+    vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
+    vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
+
 
 # DTV Libs
 PRODUCT_COPY_FILES += \
