@@ -1429,6 +1429,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     CNEService \
     WfdService \
-    WfdCommon
-
+    WfdCommon \
+    com.fingerprints.extension
 
