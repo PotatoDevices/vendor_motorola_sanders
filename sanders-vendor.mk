@@ -1362,7 +1362,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/motorola.hardware.tv@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/motorola.hardware.tv@1.0_vendor.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/hw/motorola.hardware.tv@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/motorola.hardware.tv@1.0-impl.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/motorola.hardware.tv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.tv@1.0.so \
-    vendor/motorola/sanders/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.tv@1.0_vendor.so
+    vendor/motorola/sanders/proprietary/vendor/lib64/motorola.hardware.tv@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/motorola.hardware.tv@1.0_vendor.so \
+    vendor/motorola/sanders/proprietary/lib/modules/isdbt.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/isdbt.ko
 
 # RIL & IMS
 PRODUCT_COPY_FILES += \
