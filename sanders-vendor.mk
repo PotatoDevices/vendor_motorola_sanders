@@ -120,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/motorola/sanders/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
@@ -1487,11 +1486,9 @@ PRODUCT_PACKAGES += \
     DTVPlayer \
     DTVService \
     qcrilhook \
-    com.qualcomm.location \
     ims \
     qcrilmsgtunnel \
     izat.xt.srv \
-    qti-telephony-common \
     QtiTelephonyServicelibrary \
     atfwd \
     cneapiclient \
