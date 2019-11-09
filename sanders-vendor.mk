@@ -1492,7 +1492,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     UxPerformance \
     qti-vzw-ims-internal \
-    imssettings \
     com.quicinc.cne.api-V1.0-java \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
