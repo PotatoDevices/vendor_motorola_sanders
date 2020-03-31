@@ -30,6 +30,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/qmi_motext_hook:$(TARGET_COPY_OUT_VENDOR)/bin/qmi_motext_hook \
     vendor/motorola/sanders/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/motorola/sanders/proprietary/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QtiTelephonyServicelibrary.jar \
+    vendor/motorola/sanders/proprietary/framework/com.qti.location.sdk.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.location.sdk.jar \
+    vendor/motorola/sanders/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/motorola/sanders/proprietary/framework/embmslibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/embmslibrary.jar \
+    vendor/motorola/sanders/proprietary/framework/imscmlibrary.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/imscmlibrary.jar \
+    vendor/motorola/sanders/proprietary/framework/izat.xt.srv.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/izat.xt.srv.jar \
+    vendor/motorola/sanders/proprietary/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qcrilhook.jar \
+    vendor/motorola/sanders/proprietary/framework/cneapiclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/cneapiclient.jar \
+    vendor/motorola/sanders/proprietary/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.dpmframework.jar \
+    vendor/motorola/sanders/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.api-V1.0-java.jar \
+    vendor/motorola/sanders/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.jar \
+    vendor/motorola/sanders/proprietary/framework/ConnectivityExt.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/ConnectivityExt.jar \
+    vendor/motorola/sanders/proprietary/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dpmapi.jar \
+    vendor/motorola/sanders/proprietary/framework/QPerformance.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QPerformance.jar \
+    vendor/motorola/sanders/proprietary/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qti-vzw-ims-internal.jar \
+    vendor/motorola/sanders/proprietary/framework/rcsimssettings.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/rcsimssettings.jar \
+    vendor/motorola/sanders/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
+    vendor/motorola/sanders/proprietary/framework/UxPerformance.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/UxPerformance.jar \
+    vendor/motorola/sanders/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/motorola/sanders/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
     vendor/motorola/sanders/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/motorola/sanders/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
@@ -1475,31 +1493,20 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
-    libqct_resampler \
+    libbtnv \
+    vendor.qti.hardware.fm@1.0 \
     TimeService \
-    com.qti.location.sdk \
-    com.qualcomm.location \
-    com.qti.snapdragon.sdk.display \
     DTVPlayer \
     DTVService \
-    qcrilhook \
     ims \
     qcrilmsgtunnel \
-    izat.xt.srv \
-    QtiTelephonyServicelibrary \
     atfwd \
-    cneapiclient \
-    com.quicinc.cne \
-    UxPerformance \
-    qti-vzw-ims-internal \
-    com.quicinc.cne.api-V1.0-java \
     HotwordEnrollmentOKGoogleCS47L35 \
     HotwordEnrollmentTGoogleCS47L35 \
     HotwordEnrollmentXGoogleCS47L35 \
     QtiTelephonyService \
     CNEService \
     WfdService \
-    WfdCommon \
-    com.fingerprints.extension
+    WfdCommon
 
 PRODUCT_SOONG_NAMESPACES += vendor/motorola/sanders
