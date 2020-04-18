@@ -146,5 +146,5 @@ android_app_import {
 dex_import {
     name: "WfdCommon",
     owner: "motorola",
-    jars: ["proprietary/framework/WfdCommon.jar"],
+    jars: ["proprietary/product/framework/WfdCommon.jar"],
 }
