@@ -144,6 +144,12 @@ android_app_import {
 }
 
 dex_import {
+    name: "qti-telephony-common",
+    owner: "motorola",
+    jars: ["proprietary/product/framework/qti-telephony-common.jar"],
+}
+
+dex_import {
     name: "WfdCommon",
     owner: "motorola",
     jars: ["proprietary/product/framework/WfdCommon.jar"],
