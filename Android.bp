@@ -222,13 +222,13 @@ dex_import {
 }
 
 dex_import {
-    name: "qti-telephony-common",
+    name: "WfdCommon",
     owner: "motorola",
-    jars: ["proprietary/product/framework/qti-telephony-common.jar"],
+    jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 dex_import {
-    name: "WfdCommon",
+    name: "qti-telephony-common",
     owner: "motorola",
-    jars: ["proprietary/product/framework/WfdCommon.jar"],
+    jars: ["proprietary/product/framework/qti-telephony-common.jar"],
 }
