@@ -210,6 +210,18 @@ android_app_import {
 }
 
 dex_import {
+    name: "QPerformance",
+    owner: "motorola",
+    jars: ["proprietary/framework/QPerformance.jar"],
+}
+
+dex_import {
+    name: "UxPerformance",
+    owner: "motorola",
+    jars: ["proprietary/framework/UxPerformance.jar"],
+}
+
+dex_import {
     name: "qti-telephony-common",
     owner: "motorola",
     jars: ["proprietary/product/framework/qti-telephony-common.jar"],

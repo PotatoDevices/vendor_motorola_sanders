@@ -44,11 +44,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/framework/com.quicinc.cne.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.quicinc.cne.jar \
     vendor/motorola/sanders/proprietary/framework/ConnectivityExt.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/ConnectivityExt.jar \
     vendor/motorola/sanders/proprietary/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dpmapi.jar \
-    vendor/motorola/sanders/proprietary/framework/QPerformance.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/QPerformance.jar \
     vendor/motorola/sanders/proprietary/framework/qti-vzw-ims-internal.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qti-vzw-ims-internal.jar \
     vendor/motorola/sanders/proprietary/framework/rcsimssettings.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/rcsimssettings.jar \
     vendor/motorola/sanders/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
-    vendor/motorola/sanders/proprietary/framework/UxPerformance.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/UxPerformance.jar \
     vendor/motorola/sanders/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/motorola/sanders/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
     vendor/motorola/sanders/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
