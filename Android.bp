@@ -164,6 +164,17 @@ android_app_import {
 }
 
 android_app_import {
+        name: "com.qualcomm.location",
+        owner: "motorola",
+        apk: "proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "motorola",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
