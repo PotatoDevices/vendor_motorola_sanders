@@ -175,6 +175,17 @@ android_app_import {
 }
 
 android_app_import {
+        name: "TimeWeather",
+        owner: "motorola",
+        apk: "proprietary/app/TimeWeather/TimeWeather.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "motorola",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
