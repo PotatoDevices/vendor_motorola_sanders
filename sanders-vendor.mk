@@ -165,7 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/ConnectivityExt.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/ConnectivityExt.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti-vzw-ims-internal.xml \
-    vendor/motorola/sanders/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
+    vendor/motorola/sanders/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/motorola/sanders/proprietary/vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml \
     vendor/motorola/sanders/proprietary/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
