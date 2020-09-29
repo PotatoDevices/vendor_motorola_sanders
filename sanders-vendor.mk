@@ -1575,6 +1575,7 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.7.so \
      vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.8.so \
      vendor/motorola/sanders/proprietary/vendor/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.9.so \
+     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.0.so \
      vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.1.so \
      vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.2.so \
      vendor/motorola/sanders/proprietary/vendor/lib64/vendor.display.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.3.so \
