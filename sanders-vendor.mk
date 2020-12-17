@@ -861,12 +861,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libwbc_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwbc_jni.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdavenhancements.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmsink.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsink.so \
-    vendor/motorola/sanders/proprietary/vendor/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsinkinterface.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxt_native.so \
@@ -1628,6 +1622,7 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/lib64/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libOmxMux.so \
      vendor/motorola/sanders/proprietary/lib64/libwfdclient.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdclient.so \
      vendor/motorola/sanders/proprietary/lib64/libwfdnative.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfdnative.so \
+     vendor/motorola/sanders/proprietary/lib64/libwfds.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libwfds.so \
      vendor/motorola/sanders/proprietary/vendor/bin/wifidisplayhalservice:$(TARGET_COPY_OUT_VENDOR)/bin/wifidisplayhalservice \
      vendor/motorola/sanders/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
      vendor/motorola/sanders/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
@@ -1638,8 +1633,13 @@ PRODUCT_COPY_FILES += \
      vendor/motorola/sanders/proprietary/vendor/lib/libwfdmmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmservice.so \
      vendor/motorola/sanders/proprietary/vendor/lib/libwfdmodulehdcpsession.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmodulehdcpsession.so \
      vendor/motorola/sanders/proprietary/vendor/lib64/libmmosal_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmosal_proprietary.so \
-     vendor/motorola/sanders/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so
-
+     vendor/motorola/sanders/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
+     vendor/motorola/sanders/proprietary/vendor/lib/libwfdavenhancements.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdavenhancements.so \
+     vendor/motorola/sanders/proprietary/vendor/lib/libwfdcommonutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils.so \
+     vendor/motorola/sanders/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
+     vendor/motorola/sanders/proprietary/vendor/lib/libwfdmmsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdmmsink.so \
+     vendor/motorola/sanders/proprietary/vendor/lib/libwfduibcsink.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsink.so \
+     vendor/motorola/sanders/proprietary/vendor/lib/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfduibcsinkinterface.so
 
 PRODUCT_PACKAGES += \
     libbtnv \
